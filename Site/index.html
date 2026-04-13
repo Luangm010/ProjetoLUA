@@ -6,16 +6,11 @@
     <title>Site Maravilha</title>
 </head>
 <body>
-    <a href="https://uniube.br/" target="_blank">
+    <a href="https://uniube.br/" target="_blank" id="topo">
         
     <img src="./imagens/uniubelogo.png" alt="Uniube Logo" class="logo">
     </a>
-<li>
     <h1>Bem-vindo ao Site Maravilha!</h1>
-    <h2>
-     Professor: Joabe Fuzaro<br>
-     Aluno: Luan Gonçalves Martins<br>
-     RA: 5134643<br>
     </h2>
     <h1>Este site é sobre as maravilhas do mundo</h1>
     <table class="tabela">
@@ -64,15 +59,33 @@
                 <td>Acrópole de Atenas</td>
                 <td><a href="Acrópole de Atenas.html" target="_blank">Visitar</a>
             </td>
-
         </tbody>
     </table>
     <br><br><br><br><br>
-    
-    <form>
-        <label for="comentarios">Deixe seu comentário:</label><br>
-        <textarea id="comentarios" name="comentarios" rows="4" cols="50"></textarea><br>
+    <div class="DivInfo">
+        aqui jas infos de mim <br>
+    <br>
+    </div>
+    <form class="DivFormulario">
+        <h2>Entre em contato comigo!</h2>
+        <label for="idNome">Nome:</label>
+        <textarea id="idNome" name="Nome" required></textarea><br>
+        <label for="idEmail">E-mail:</label>
+        <textarea id="idEmail" name="Email" required></textarea><br>
+        <label for="idTelefone">Telefone:</label>
+        <textarea id="idTelefone" name="Telefone" placeholder="DDD+número" required></textarea>
+        <br>
         <input type="submit" value="Enviar">
     </form>
+    <div class="rodape"> 
+    <h2>
+     Professor: Joabe Fuzaro<br>
+     Aluno: Luan Gonçalves Martins<br>
+     RA: 5134643<br>
+    </h2>
+    </div>
+    <volteaotopo>
+        <a href="#topo">Voltar ao topo</a> 
+    </volteaotopo>
 </body>
 </html>
