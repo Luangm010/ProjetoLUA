@@ -1,91 +1,128 @@
 <!DOCTYPE html>
-<html lang="PT-BR">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Maravilha</title>
 </head>
 <body>
-    <a href="https://uniube.br/" target="_blank" id="topo">
-        
-    <img src="./imagens/uniubelogo.png" alt="Uniube Logo" class="logo">
+
+<div class="header" id="topo">
+    <a href="https://uniube.br/" target="_blank">
+        <img src="./imagens/uniubelogo.png" alt="Logo Uniube">
     </a>
+</div>
+
+<nav>
+    <a href="index.html">Início</a>-
+    <a href="A_Grande_Muralha_da_China.html">Muralha da China</a>-
+    <a href="Machu_Picchu.html">Machu Picchu</a>-
+    <a href="Petra.html">Petra</a>-
+    <a href="Cristo_Redentor.html">Cristo Redentor</a>-
+    <a href="Coliseu.html">Coliseu</a>-
+    <a href="Taj_Mahal.html">Taj Mahal</a>-
+    <a href="Chichen_Itza.html">Chichén Itzá</a>-
+    <a href="Stonehenge.html">Stonehenge</a>-
+    <a href="Angkor_Wat.html">Angkor Wat</a>-
+    <a href="Acropole_de_Atenas.html">Acrópole de Atenas</a>
+</nav>
+
+<div class="main">
     <h1>Bem-vindo ao Site Maravilha!</h1>
-    </h2>
-    <h1>Este site é sobre as maravilhas do mundo</h1>
+    <h2 style="text-align:center;">As Maravilhas do Mundo Moderno e Outras Incríveis Construções</h2>
+
     <table class="tabela">
         <tbody>
             <tr>
-                <th class="toptabela">Marvilhas</th>
+                <th class="toptabela">Maravilha / Monumento</th>
+                <th class="toptabela">Localização</th>
                 <th class="toptabela">Link</th>
             </tr>
             <tr class="subtabela">
                 <td>A Grande Muralha da China</td>
-                <td><a href="A Grande Muralha da China.html" target="_blank">Visitar</a></td>  
+                <td>China</td>
+                <td><a href="A_Grande_Muralha_da_China.html" target="_blank">Visitar</a></td>
             </tr>
             <tr class="subtabela">
                 <td>Machu Picchu</td>
-                <td><a href="Machu Picchu.html" target="_blank">Visitar</a></td>
+                <td>Peru</td>
+                <td><a href="Machu_Picchu.html" target="_blank">Visitar</a></td>
             </tr>
             <tr class="subtabela">
                 <td>Petra</td>
+                <td>Jordânia</td>
                 <td><a href="Petra.html" target="_blank">Visitar</a></td>
             </tr>
             <tr class="subtabela">
                 <td>Cristo Redentor</td>
-                <td><a href="Cristo Redentor.html" target="_blank">Visitar</a></td>
+                <td>Brasil</td>
+                <td><a href="Cristo_Redentor.html" target="_blank">Visitar</a></td>
             </tr>
             <tr class="subtabela">
                 <td>Coliseu</td>
+                <td>Itália</td>
                 <td><a href="Coliseu.html" target="_blank">Visitar</a></td>
             </tr>
             <tr class="subtabela">
                 <td>Taj Mahal</td>
-                <td><a href="Taj Mahal.html" target="_blank">Visitar</a></td>
+                <td>Índia</td>
+                <td><a href="Taj_Mahal.html" target="_blank">Visitar</a></td>
             </tr>
             <tr class="subtabela">
                 <td>Chichén Itzá</td>
-                <td><a href="Chichén Itzá.html" target="_blank">Visitar</a></td>
+                <td>México</td>
+                <td><a href="Chichen_Itza.html" target="_blank">Visitar</a></td>
             </tr>
             <tr class="subtabela">
                 <td>Stonehenge</td>
+                <td>Inglaterra</td>
                 <td><a href="Stonehenge.html" target="_blank">Visitar</a></td>
             </tr>
             <tr class="subtabela">
                 <td>Angkor Wat</td>
-                <td><a href="Angkor Wat.html" target="_blank">Visitar</a></td>
+                <td>Camboja</td>
+                <td><a href="Angkor_Wat.html" target="_blank">Visitar</a></td>
             </tr>
             <tr class="subtabela">
                 <td>Acrópole de Atenas</td>
-                <td><a href="Acrópole de Atenas.html" target="_blank">Visitar</a>
-            </td>
+                <td>Grécia</td>
+                <td><a href="Acropole_de_Atenas.html" target="_blank">Visitar</a></td>
+            </tr>
         </tbody>
     </table>
-    <br><br><br><br><br>
+
     <div class="DivInfo">
-        aqui jas infos de mim <br>
-    <br>
+        <h2>Sobre o Site</h2>
+        <p>
+            Este site foi desenvolvido como projeto acadêmico da <strong>Universidade de Uberaba (Uniube)</strong>
+            e apresenta informações sobre as 7 Maravilhas do Mundo Moderno eleitas em 2007,
+            além de outros monumentos históricos incríveis da humanidade.
+            Cada página contém descrição, tabela de informações, curiosidades e galeria de imagens.
+        </p>
     </div>
-    <form class="DivFormulario">
-        <h2>Entre em contato comigo!</h2>
+
+    <div class="DivFormulario">
+        <h2>Fale Conosco</h2>
         <label for="idNome">Nome:</label>
-        <textarea id="idNome" name="Nome" required></textarea><br>
+        <input type="text" id="idNome" name="Nome" placeholder="Seu nome completo" required>
+   <br>
         <label for="idEmail">E-mail:</label>
-        <textarea id="idEmail" name="Email" required></textarea><br>
+        <input type="email" id="idEmail" name="Email" placeholder="seu@email.com" required>
+   <br>
         <label for="idTelefone">Telefone:</label>
-        <textarea id="idTelefone" name="Telefone" placeholder="DDD+número" required></textarea>
-        <br>
+        <input type="text" id="idTelefone" name="Telefone" placeholder="DDD + número" required>
+   <br>
+        <label for="idMensagem">Mensagem:</label>
+        <textarea id="idMensagem" name="Mensagem" placeholder="Escreva sua mensagem aqui..."></textarea>
+   <br>
         <input type="submit" value="Enviar">
-    </form>
-    <div class="rodape"> 
-    <h2>
-     Professor: Joabe Fuzaro<br>
-     Aluno: Luan Gonçalves Martins<br>
-     RA: 5134643<br>
-    </h2>
     </div>
-    <volteaotopo>
-        <a href="#topo">Voltar ao topo</a> 
-    </volteaotopo>
+</div>
+
+<div class="rodape">
+    <p>Professor: Joabe Fuzaro &nbsp;|&nbsp; Aluno: Luan Gonçalves Martins &nbsp;|&nbsp; RA: 5134643</p>
+    <a href="#topo"> Voltar ao topo</a>
+</div>
+
 </body>
 </html>
